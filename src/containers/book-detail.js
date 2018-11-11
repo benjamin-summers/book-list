@@ -24,7 +24,7 @@ class BookDetail extends Component {
                 <hr />
                 <h5># Of Pages {this.props.book.pages}</h5>
                 <hr />
-                <h5>Read more</h5>
+                <a href={this.props.book.url}>{'Get ' + this.props.book.title + ' on Amazon'}</a>
             </div>
         );
     }
